@@ -1,33 +1,31 @@
 {
-    "name": "template-1",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Bixby Template Developer",
-    "description": "Template 1",
-    "bixbyTemplate": {
-        "displayName": "Search Capsule",
-        "compatibleVersion": "6.8.0",
-        "workflow": [
-            {
-                "label": "Step 1",
-                "template": "./foo/step-1-template.json",
-                "preprocess": "./foo/pre-process.js",
-                "postprocess": "./foo/post-process.js"
-            }
-        ]
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ram-viv-labs/test.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ram-viv-labs/test/issues"
-    },
-    "homepage": "https://github.com/ram-viv-labs/test#readme"
+  "name": "template-1",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Bixby Template Developer",
+  "description": "Template 1",
+  "bixbyTemplate": {
+    "displayName": "Search Capsule",
+    "compatibleVersion": "6.8.0",
+    "workflow": [
+      {
+        "label": "Step 1",
+        "template": "./foo/step-1-template.json",
+        "preprocess": "./foo/pre-process.js",
+        "postprocess": "./foo/post-process.js"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram-viv-labs/test.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ram-viv-labs/test/issues"
+  },
+  "homepage": "https://github.com/ram-viv-labs/test#readme"
 }
